@@ -222,6 +222,9 @@ function showMovies(data) {
 
                 <h3>Overview</h3>
                 ${overview}
+                <br/>
+                <h3>Collections</h3>
+                <p>$${Math.floor((Math.random() * 10000000) + 100000)}</p>
                 <br/> 
                 <button class="know-more" id="${id}">Know More</button
             </div>
